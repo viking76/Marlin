@@ -2,12 +2,24 @@
 
 To work well with LED LIGHT and (auto FAN 5V) 
 and the other FAN Who need to be set with Gcode. In CURA set 'marlin' printer setting.
+
 In first don't forget to set good size for you printer Bed and High Z.
-Before a print:
+
+# Before a print:
 - Set Home
 - do autobed level
 - do Autopid for extruder
 
+# What is changed in this marlin:
+- original speed of Z homing (like real UM2)
+- autofan 5V for extruder work. (deleted disable E0-autofan0 -1)
+- active homing before print if unknow position (satefy).
+
+So i have build this this firmware VSCode - ioplatform (Win10) because I have some fail with Arduino program(mac) after upload build LCD(bugs).
+
+# Who doesnt work :
+- actually I have no idea why temperature doesn t go up automaticaly before print.
+- The LED of rotary button doesn't work.
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/marlinfirmware/marlin.svg)
