@@ -95,11 +95,11 @@
 #define HEATER_BED_PIN                         4
 
 #ifndef FAN_PIN
-  #define FAN_PIN                              7
+  #define FAN_PIN                              7  // fan to cold piece
 #endif
 
-#ifndef E0_AUTO_FAN_PIN
-  #define E0_AUTO_FAN_PIN                     77
+#ifndef E0_AUTO_FAN_PIN                 // Fan to cold upside the header need actived when extruders >40
+  #define E0_AUTO_FAN_PIN                      77
 #endif
 
 //
