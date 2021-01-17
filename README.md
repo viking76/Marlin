@@ -1,4 +1,4 @@
-# Marlin 3D Printer Firmware For Ultimaker motherboard 2 UM2 
+# Marlin 3D Printer Firmware For Ultimaker motherboard 2 UM2 (Unstable)
 
 To work well with LED LIGHT and (auto FAN 5V) 
 and the other FAN Who need to be set with Gcode. In CURA set 'marlin' printer setting.
